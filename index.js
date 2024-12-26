@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/ping',(req,res) => {
     return res.json({
-        message: 'pong',
+        message: 'Aishwarya is mad',
         serverAddress: ip.address()
     })
 });
