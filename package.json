@@ -1,6 +1,7 @@
 {
   "name": "demoserver",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -8,9 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "express": "^4.21.2",
-    "ip": "^2.0.1"
+    "express": "^4.19.2",
+    "ip": "^2.0.1",
+    "pm2": "^5.4.1"
   }
 }
